@@ -17,6 +17,9 @@ const instructions = Platform.select({
 });
 
 type Props = {};
+
+//
+
 export default class App extends Component<Props> {
   render() {
     return (
@@ -24,6 +27,7 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
+        <Text>Major issues in Android </Text>
       </View>
     );
   }
