@@ -16,6 +16,8 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
+
+//props to be defined here
 type Props = {};
 
 //
